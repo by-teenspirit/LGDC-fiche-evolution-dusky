@@ -1,3 +1,6 @@
+/* Thanks Genius Panda aka Kim pour la chronologie */
+/* Code by teenspirit */
+
 :root {
   --gpTL4-bg1: transparent; /*couleur fond*/
   --gpTL4-dot-clr: #272727; /*couleur point*/
@@ -31,6 +34,11 @@
   font-family: Roboto;
   padding: 20px;
   border-radius: 5px;
+  margin: auto;
+}
+
+.fiche_dusky_trois a {
+  color: black;
 }
 
 .header_dusky {
