@@ -100,6 +100,31 @@ titre_rp {
   font-weight: bold;
 }
 
+.tableonglets span.ongletcont {
+  display: none;
+}
+.tableonglets input {
+  display: none;
+}
+.tableonglets input:checked + span.ongletcont {
+  display: block;
+}
+.tableonglets span.ongletcont {
+  background-color: #d6c8df;
+  border-radius: 5px;
+  padding: 15px;
+  display: none;
+  overflow: auto;
+  margin: auto;
+  height: 400px;
+}
+.tableonglets label.onglet {
+  display: inline-block;
+  margin: 0 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
 /*Style des onglets*/
 .all .systeme_onglets {
   text-align: left;
@@ -119,7 +144,7 @@ titre_rp {
 .onglet {
   font-family: "Bebas Neue";
   font-size: 24px;
-  color: #717171;
+  color: #272727;
 }
 /***Onglet survolé***/
 .all .onglet_0:hover,
