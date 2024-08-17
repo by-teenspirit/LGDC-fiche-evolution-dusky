@@ -76,13 +76,9 @@ sous_titre {
 }
 .bulle_dusky {
   padding: 10px;
-  background-color: #d6c8df;
   border-radius: 100px;
-  width: 24px;
-  height: 24px;
 }
 .info_dusky {
-  background-color: #d6c8df;
   border-radius: 5px;
   padding: 15px;
 }
@@ -110,7 +106,6 @@ titre_rp {
   display: block;
 }
 .tableonglets span.ongletcont {
-  background-color: #d6c8df;
   border-radius: 5px;
   padding: 15px;
   display: none;
